@@ -6,7 +6,8 @@ export let shoes = [
         price: 300,
         Designer:"Steve Smith",
         description: "this is a very nice shoes",
-        size: [36, 37, 38, 39, 40, 41]
+        size: [36, 37, 38, 39, 40, 41],
+        date: "10.07.2018"
     },
     {
         id:2,
@@ -15,7 +16,8 @@ export let shoes = [
         price: 120,
         Designer:"unknown",
         description: "this is a very nice shoes",
-        size: [36, 37, 38,39, 40, 41]
+        size: [36, 37, 38,39, 40, 41],
+        date: "10.07.2018"
     },
     {
         id:3,
@@ -24,7 +26,8 @@ export let shoes = [
         price: 100,
         Designer:"Steve Smith",
         description: "this is a very nice shoes",
-        size: [36, 37, 38,39, 40, 41]
+        size: [36, 37, 38,39, 40, 41],
+        date: "10.07.2018"
     },
     {
         id:4,
@@ -33,7 +36,8 @@ export let shoes = [
         price: 270,
         Designer:"unknown",
         description: "this is a very nice shoes",
-        size: [36, 37, 38,39, 40, 41]
+        size: [36, 37, 38,39, 40, 41],
+        date: "10.07.2018"
     },
     {
         id:5,
@@ -42,7 +46,8 @@ export let shoes = [
         price: 190,
         Designer:"Stella McCartney",
         description: "this is a very nice shoes",
-        size: [36, 37, 38,39, 40, 41]
+        size: [36, 37, 38,39, 40, 41],
+        date: "10.07.2018"
     },
     {
         id:6,
@@ -51,7 +56,8 @@ export let shoes = [
         price: 500,
         Designer:"raf simons",
         description: "this is a very nice shoes",
-        size: [36, 37, 38,39, 40, 41]
+        size: [36, 37, 38,39, 40, 41],
+        date: "10.07.2018"
     },
     {
         id:7,
@@ -60,7 +66,8 @@ export let shoes = [
         price: 100,
         Designer:"unknown",
         description: "this is a very nice shoes",
-        size: [36, 37, 38,39, 40, 41]
+        size: [36, 37, 38,39, 40, 41],
+        date: "10.07.2018"
     },
     {
         id:8,
@@ -69,7 +76,8 @@ export let shoes = [
         price: 200,
         Designer:"valantino",
         description: "this is a very nice shoes",
-        size: [36, 37, 38,39, 40, 41]
+        size: [36, 37, 38,39, 40, 41],
+        date: "10.07.2018"
     },
     {
         id:9,
@@ -78,6 +86,7 @@ export let shoes = [
         price: 150,
         Designer:"super star",
         description: "this is a very nice shoes",
-        size: [36, 37, 38,39, 40, 41]
+        size: [36, 37, 38,39, 40, 41],
+        date: "10.07.2018"
     }
 ]
