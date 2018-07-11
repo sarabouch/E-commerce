@@ -1,7 +1,7 @@
 export let shoes = [
     {
         id:1,
-        img:"",
+        img:"./Images/ayo-ogunseinde-132344-unsplash.jpg",
         brand:"adidas",
         price: 300,
         Designer:"Steve Smith",
@@ -11,7 +11,7 @@ export let shoes = [
     },
     {
         id:2,
-        img:"",
+        img:"./Images/ayo-ogunseinde-132344-unsplash.jpg",
         brand:"nike",
         price: 120,
         Designer:"unknown",
@@ -21,7 +21,7 @@ export let shoes = [
     },
     {
         id:3,
-        img:"",
+        img:"./Images/ayo-ogunseinde-132344-unsplash.jpg",
         brand:"reebok",
         price: 100,
         Designer:"Steve Smith",
@@ -31,7 +31,7 @@ export let shoes = [
     },
     {
         id:4,
-        img:"",
+        img:"./Images/ayo-ogunseinde-132344-unsplash.jpg",
         brand:"adidas",
         price: 270,
         Designer:"unknown",
@@ -41,7 +41,7 @@ export let shoes = [
     },
     {
         id:5,
-        img:"",
+        img:"./Images/ayo-ogunseinde-132344-unsplash.jpg",
         brand:"nike",
         price: 190,
         Designer:"Stella McCartney",
@@ -51,7 +51,7 @@ export let shoes = [
     },
     {
         id:6,
-        img:"",
+        img:"./Images/ayo-ogunseinde-132344-unsplash.jpg",
         brand:"nike",
         price: 500,
         Designer:"raf simons",
@@ -61,7 +61,7 @@ export let shoes = [
     },
     {
         id:7,
-        img:"",
+        img:"./Images/ayo-ogunseinde-132344-unsplash.jpg",
         brand:"calvin.k",
         price: 100,
         Designer:"unknown",
@@ -71,7 +71,7 @@ export let shoes = [
     },
     {
         id:8,
-        img:"",
+        img:"./Images/ayo-ogunseinde-132344-unsplash.jpg",
         brand:"nike",
         price: 200,
         Designer:"valantino",
@@ -81,7 +81,7 @@ export let shoes = [
     },
     {
         id:9,
-        img:"",
+        img:"./Images/ayo-ogunseinde-132344-unsplash.jpg",
         brand:"adidas",
         price: 150,
         Designer:"super star",

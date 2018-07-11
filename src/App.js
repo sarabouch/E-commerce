@@ -1,17 +1,27 @@
 import React, { Component } from 'react';
 
-import {Shoes, ShoesItem} from './shoesItem'
+import {BrowserRouter, Route, Link, Switch} from "react-router-dom"
+import styled from "styled-components"
 
-import {} from "./data/data"
+import {shoes} from "./data/data"
 
-class App extends Component {
-  render() {
+import {Sneakers} from "./components/sneakers/index"
+import {Item} from "./components/item/index"
+
+
+
+export class App extends React.Component{
+  render(){
     return (
-      <div className="App">
-        <ShoesItem> </ShoesItem>
+      <div className="App"> 
+        <BrowserRouter>
+           <Switch>
+            <Route  exact path= "/" component= {Sneakers} />
+            <Route  exact path= "/page/:pageNr" component= {Sneakers} />
+            <Route path= "/sneaker/:id" component= {Item} />
+          </Switch>
+        </BrowserRouter>
       </div>
     );
   }
 }
-
-export default App;
