@@ -1,16 +1,18 @@
 import React, { Component } from 'react';
-import './App.css';
-
 import {BrowserRouter, Route, Link} from "react-router-dom"
-import {styled} from "styled-components"
+import styled from "styled-components"
 
-import {} from "./data/data"
+import {shoes} from "./data/data"
+
+import {Header} from "./components/header/index"
+
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-       
+      <div className="App" /* style= {{}}  */>
+       <Header />
       </div>
     );
   }
