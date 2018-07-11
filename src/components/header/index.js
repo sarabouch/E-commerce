@@ -6,7 +6,7 @@ import styled from "styled-components"
 const Container = styled.div`
  display:felx;
  justify-content: space-between;
- width: 50%;
+ width: 80%;
  margin:0 auto; 
 `
 const Menu = styled.div`
@@ -17,6 +17,7 @@ height:100px;
 text-align: cente
 padding:10px;
 border-radius: 20px 0 0 0;
+font-size:40px;
 `
 const Cart = styled.div`
 color:white;
@@ -28,9 +29,9 @@ padding:10px;
 border-radius: 0 20px 0 0;
 `
 const Logo= styled.h1`
- font-size:20px;
+ font-size:30px;
  font-weight:900;
- margin-right: 620px;
+ margin-right:70%;
 `
 
 
