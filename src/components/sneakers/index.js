@@ -1,18 +1,32 @@
 import React, { Component } from 'react';
-import {BrowserRouter, Route, Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 import styled from "styled-components"
 
-//import {shoes} from "./data/data"
+import { Header } from "../header/index"
+import { Aside } from "../aside/index"
+import { Card } from "./card"
 
-import {Header} from "../header/index"
+const Main = styled.div`
+width: 75%;
+display:flex;
+justify-content:space-evenly;
+`
 
-
-export class Sneakers extends React.Component{
-    render(){
+export class Sneakers extends React.Component {
+    render() {
         return (
             <div>
                 <Header />
-                <h1>sneakers</h1>
+                <div className="container" style={{ display: "flex" }} >
+                    <Aside />
+                    <Main>
+                        {this.props.data.map(item => {
+                            return <Link onClick={this.props.passingFunction(item.id)} to={`/sneaker/${item.id}`} key={item.id}>
+                                <Card item={item}></Card>
+                            </Link>
+                        })}
+                    </Main>
+                </div>
             </div>
         )
     }
