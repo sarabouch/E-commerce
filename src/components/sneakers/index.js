@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import { Link } from "react-router-dom"
-import styled from "styled-components"
+import React from "react";
+import { Link } from "react-router-dom";
+import styled from "styled-components";
 
 import { Header } from "../header/index"
 import { Aside } from "../aside/index"

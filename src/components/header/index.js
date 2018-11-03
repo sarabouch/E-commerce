@@ -6,8 +6,6 @@ import styled from "styled-components"
 const Container = styled.div`
  display:felx;
  justify-content: space-between;
- 
-
 `
 const Menu = styled.div`
 color:white;
@@ -17,6 +15,7 @@ height:100px;
 text-align: cente
 padding:10px;
 border-radius: 20px 0 0 0;
+font-size:40px;
 `
 const Cart = styled.div`
 color:white;
@@ -30,9 +29,8 @@ border-radius: 0 20px 0 0;
 const Logo = styled.h1`
  font-size:20px;
  font-weight:900;
- margin-right: 620px;
+ margin-right:70%;
 `
-
 
 export const Header = props => {
     return (
